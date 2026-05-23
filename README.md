@@ -1,16 +1,26 @@
-# Expense Tracker
+# 💰 Expense Tracker
 
-A simple Python expense tracker that allows users to add, view, edit, delete, and filter expenses.
+A command-line expense tracking application built with Python and pandas.
 
 ## Features
-- Add, edit, delete expenses
-- View all expenses
-- Filter by category, date, and amount
-- Show spending summary
+- Add, edit, delete, and view expense records
+- Debit (spending) and credit (income) support
+- Daily, weekly, and monthly spending summaries
+- Highest spending category detection
+- Filter by category, date range, or amount range
+- Export filtered results to CSV
+- Data persisted automatically to expenses.csv
+
+## Built With
+- Python
+- pandas
 
 ## How to Run
-1. Install pandas:
-   pip install pandas
+```bash
+pip install pandas
+python expense_tracker.py
+```
 
-2. Run the program:
-   python expense_tracker.py
+## Project Context
+Built as part of the Programming module at the
+University of Southampton (2025–2026).
